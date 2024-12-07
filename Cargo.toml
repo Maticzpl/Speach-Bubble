@@ -1,0 +1,11 @@
+[package]
+name = "speachbubble"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "1.5.1",  features = ["full"] }
+tokio = { version = "1.42.0", features = ["full"] }
+reqwest = "0.12.9"
+http-body-util = "0.1.2"
+hyper-util = { version = "0.1.10", features = ["full"] }
