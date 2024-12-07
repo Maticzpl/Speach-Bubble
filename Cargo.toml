@@ -4,8 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hyper = { version = "1.5.1",  features = ["full"] }
-tokio = { version = "1.42.0", features = ["full"] }
+hyper = { version = "1",  features = ["full"] }
+tokio = { version = "1", features = ["full"] }
 reqwest = "0.12.9"
-http-body-util = "0.1.2"
-hyper-util = { version = "0.1.10", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+image = "0.25"
+imageproc = "0.25"
+resvg = "0.44"
+rayon = "1.10"
+regex = "1.11"
